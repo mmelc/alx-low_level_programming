@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=$CFILE; cpp -P "$CFILE" > c
+CFILE="0-main.c"; cpp -P "$CFILE" > c; cat c
