@@ -1,3 +1,2 @@
 #!/bin/bash
-CFILE=$CFILE
-cpp -P "$CFILE" > c
+CFILE=$CFILE; cpp -P "$CFILE" > c
